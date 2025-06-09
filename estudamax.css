@@ -1,0 +1,69 @@
+/* Global */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-weight: 600;
+}
+/* Hero personalizado */
+.hero-section {
+  background: linear-gradient(135deg, #007bff, #3CB371);
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items-center;
+  text-align: center;
+}
+/* Seção Sobre com imagem estilizada */
+#sobre img {
+  border-radius: 10px;
+}
+/* Cartões de funcionalidades */
+#funcionalidades .card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+#funcionalidades .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+/* Planos em destaque */
+#planos .card {
+  border-radius: 10px;
+}
+#planos .border-primary {
+  border-width: 3px !important;
+}
+#planos .border-success {
+  border-width: 3px !important;
+}
+/* Depoimentos */
+#depoimentos .testimonial {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+#depoimentos .testimonial::before {
+  content: '“';
+  font-size: 2rem;
+  color: #3CB371;
+}
+#depoimentos .testimonial::after {
+  content: '”';
+  font-size: 2rem;
+  color: #3CB371;
+}
+#depoimentos h6 {
+  margin-top: 10px;
+}
+/* Contato */
+#contato .form-control {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#contato button {
+  border-radius: 5px;
+}
+/* Footer */
+footer a:hover {
+  text-decoration: underline !important;
+}
